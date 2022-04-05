@@ -1,11 +1,14 @@
 {
   "name": "karma-visual-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/art-graph/karma-visual-test.git"
@@ -18,6 +21,6 @@
   "homepage": "https://github.com/art-graph/karma-visual-test#readme",
   "dependencies": {
     "http-proxy-middleware": "^2.0.4",
-    "visual-test-api": "0.0.2"
+    "visual-test-api": "0.0.4"
   }
 }
